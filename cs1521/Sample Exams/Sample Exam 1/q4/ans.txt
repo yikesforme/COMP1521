@@ -1,0 +1,24 @@
+CASE 1: 	n = 3 	(scanf returns number of elements able to be read in).
+		a = 42  
+		b = 64 
+		c = 999
+
+CASE 2: 	n = 3
+		a = 42
+		b = 64 	(read in as an int)
+		c = 0
+
+CASE 3:		n = 2
+		a = 42
+		b = 64
+		c = 0	(not an integer)
+
+CASE 4:		n = 1
+		a = 42
+		b = 0
+		c = 0
+
+CASE 5:		n = 0
+		a = 0
+		b = 0
+		c = 0

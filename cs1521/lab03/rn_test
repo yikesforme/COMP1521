@@ -1,0 +1,4 @@
+#!/bin/sh  
+
+./maf <test>test/$test.expted
+

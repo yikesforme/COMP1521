@@ -1,0 +1,35 @@
+Q6 COMP1921 17s2 Final Exam
+
+A.
+
+sizeof(Node) = 8
+
+B.
+
+if the heap is full then it can not calloc
+
+
+C.
+
+Node *L; // is set to list shown on diagram
+
+// code to convert Before ...
+
+Node *new = calloc(1, sizeof(Node));
+new -> value = 4
+new -> next = L;
+L = new;
+
+// ... into After
+
+
+D.
+
+void freeNodes(Node *L)
+{
+	if (L == NULL)
+        return;
+    freeNodes(L -> next);
+    free(L);
+}
+

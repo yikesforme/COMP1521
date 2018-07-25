@@ -1,0 +1,16 @@
+Question 6 (5 marks)
+Give a representation for each of the following decimal values in 16-bit twos-complement bit-strings. Show each value in binary, octal and hexadecimal.
+
+  100
+
+  10000
+
+  100000
+
+  -5
+
+  -100
+
+Type the answer to this question into the file called q6.txt and submit it using the command:
+
+submit q6

@@ -1,0 +1,7 @@
+Your Output                        Expected Output                    
+
+s1 = ABCDEFGHIJKLMNOPQRSTUVWXYZ	   Loaded: /home/class/lib/exceptions
+s1 = ABCDEFGHIJKLMNOPQRSTUVWXYZ	   s1 = ABCDEFGHIJKLMNOPQRSTUVWXYZ
+s2 = abcdefghijklmnopqrstuvwxyz	   s1 = ABCDEFGHIJKLMNOPQRSTUVWXYZ
+n = 26				   s2 = abcdefghijklmnopqrstuvwxyz
+				   n = 26

@@ -1,0 +1,15 @@
+SIGHUP  -> Signal Hang-Up.
+	-> This means that the termianl prompt, or console, has been terminated and the process needs to be terminated as a result.
+	-> [EFFECT] Terminate Process.
+SIGINT  -> Signal Interrupt.
+	-> This means that the keyboard has sent a signal to interrupt execution, such as cmd+c, ctrl+z etc...
+	-> [EFFECT] Terminate Process
+SIGFPE  -> Signal Floating-Point Exception
+	-> This means that there was an error calculating a value (arithmetic error).
+	-> [EFFECT] Create core image
+SIGSEGV -> Signal Segmentation Violation
+	-> This means that there was a problem reading an address (memory violation), or there was a segmentation fault.
+	-> [EFFECT] Create core image
+SIGTSTP -> Signal Stop Process.
+	-> This signals stops the execution of a process. Only difference between SIGTSTP and SIGSTOP, is that SIGTSTP can be caught and ignore, whereas SIGSTOP cannot. 
+	-> [EFFECT] Stop Process

@@ -1,0 +1,7 @@
+Your Output                        Expected Output                    
+
+s1 = T				   Loaded: /home/class/lib/exceptions
+s1 = T				   s1 = T
+s2 = t				   s1 = T
+n = 1				   s2 = t
+				   n = 1

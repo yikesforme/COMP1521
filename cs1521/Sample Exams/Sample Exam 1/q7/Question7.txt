@@ -1,0 +1,26 @@
+Question 7 (5 marks)
+Consider the following memory state:
+
+Address       Data Definition
+0x10010000    aa:  .word 42
+0x10010004    bb:  .word 666
+0x10010008    cc:  .word 1
+0x1001000C         .word 3
+0x10010010         .word 5
+0x10010014         .word 7
+What address with be calculated and what value will be loaded into register $t0 after each of the followng statements (or pairs of statements)?
+ lw $t0, bb
+
+ lb $t0, bb
+
+ lw $t0, aa+4
+
+ la $t1, cc
+ lw $t0, ($t1)
+
+ li $t1, 8
+ lw $t0, cc($t1)
+
+Type the answer to this question into the file called q7.txt and submit it using the command:
+
+submit q7

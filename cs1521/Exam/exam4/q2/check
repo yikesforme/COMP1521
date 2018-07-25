@@ -1,0 +1,19 @@
+#!/bin/sh
+
+echo "Running tests ..."
+
+for tt in ./tests/*.sh
+do
+	t=`basename $tt .sh`
+	sh "$tt" | head -200 > tests/$t.out
+	if cmp -s tests/$t.exp tests/$t.out
+	then
+		echo Passed test $t
+	else
+		echo Failed test $t
+		printf "%-35s%-35s\n\n" "Your Output" "Expected Output" > tests/$t.cmp
+		pr -m -t -w 70 tests/$t.out tests/$t.exp >> tests/$t.cmp
+		echo Check differences using \"cat tests/$t.cmp\"
+	fi
+done
+

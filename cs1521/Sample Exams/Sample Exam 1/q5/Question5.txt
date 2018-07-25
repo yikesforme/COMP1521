@@ -1,0 +1,22 @@
+Question 5 (5 marks)
+Assume that we have the following 16-bit variables defined and initialised:
+
+unsigned short a, b, c;
+a = 0x5555;  b = 0xAAAA;  c = 0x0001;
+What are the values of the following expressions:
+
+  a | b (bitwise OR)
+
+  a & b (bitwise AND)
+
+  a ^ b (bitwise XOR)
+
+  a & (b << 1)
+
+  a & ~c
+
+Give your answer in hexadecimal, but you might find it easier to convert to binary to work out the solution.
+
+Type the answer to this question into the file called q5.txt and submit it using the command:
+
+submit q5

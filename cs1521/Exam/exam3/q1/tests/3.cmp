@@ -1,0 +1,7 @@
+Your Output                        Expected Output                    
+
+s1 = never upper case		   Loaded: /home/class/lib/exceptions
+s1 = never upper case		   s1 = never upper case
+s2 = never upper case		   s1 = never upper case
+n = 0				   s2 = never upper case
+				   n = 0

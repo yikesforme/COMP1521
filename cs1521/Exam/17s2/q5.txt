@@ -1,0 +1,29 @@
+Q5 COMP1521 17s2 Final Exam
+
+A.
+
+i)    0x00
+
+ii)   0xbf
+
+iii)  
+
+iv)   ...
+
+v)    ...
+
+vi)   ...
+
+vii)  ...
+
+viii) ...
+
+B.
+
+i)    O_RDWR|O_APPEND
+
+ii)   O_WRONLY|O_CREAT
+
+iii)  O_WRONLY|O_CREAT|O_TRUNC
+
+iv)   O_WRONLY

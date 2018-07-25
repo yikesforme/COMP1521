@@ -1,0 +1,11 @@
+1. fopen(FilePath, "r")
+	-> open(FilePath, O_RDONLY)
+2. fopen(FilePath, "a")
+	-> open(FilePath, O_APPEND)
+3. fopen(FilePath, "w")
+	-> open(FilePath, O_WRONLY)
+4. fopen(FilePath, "r+")
+	-> open(FilePath, O_RDONLY | O_CREAT)
+5. fopen(FilePath, "w+")
+	-> open(FilePath, O_WRONLY | O_CREAT)
+

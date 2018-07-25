@@ -1,0 +1,7 @@
+1. Loads address 0x10010004, and stores the value 42 into $t0.
+2. Loads address 0x10010004, and stores the value 0 into $t0.
+3. Loads address 0x10010004 (bb), and stores the value 666 into $t0.
+4. Loads address 0x10010008 (cc), and stores this address into $t1.
+   Loads word pointed to by $t1 (0x10010008), and stores the value 1 into $t0.
+5. Loads value 8 into $t1.
+   Loads address 0x10010010 (cc+8), and stores the value 5 into $t0.

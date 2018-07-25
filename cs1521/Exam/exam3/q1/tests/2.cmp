@@ -1,0 +1,7 @@
+Your Output                        Expected Output                    
+
+s1 = FORMERLY UPPER CASE	   Loaded: /home/class/lib/exceptions
+s1 = FORMERLY UPPER CASE	   s1 = FORMERLY UPPER CASE
+s2 = formerly upper case	   s1 = FORMERLY UPPER CASE
+n = 17				   s2 = formerly upper case
+				   n = 17

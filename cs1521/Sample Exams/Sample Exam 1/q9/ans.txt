@@ -1,0 +1,10 @@
+1. jal func (func has address 5096)
+	-> 5096 / 4096 = 1.
+	-> loading address space "Code2" which is 1 in Physical Memory.
+2. lw $s0, ($sp) ($sp points to address 28668)
+	-> 28668 / 4096 = 6.999
+	-> loading address space "Stack2" which is 2 in Physical Memory.
+3. la $t0, msg (msg is at 10192)
+	-> 10192 / 4096 = 2.488
+	-> loading address space "Data" which is 6 in Physical Memory.
+

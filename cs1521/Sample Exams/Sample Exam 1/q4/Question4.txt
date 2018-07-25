@@ -1,0 +1,28 @@
+Question 4 (5 marks)
+C functions have a number of different ways of dealing with errors:
+
+terminating the program entirely (rare)
+setting the system global variable errno
+returning a value that indicates an error (e.g. <@>NULL)
+setting a returning parameter to an error value
+They might even use a combination of the above.
+
+Think about how the following code might behave for each of the inputs below (i.e. the final value for each variable):
+
+int n, a, b, c;
+n = scanf("%d %d %d", &a, &b, &c)
+Inputs:
+
+  42 64 999
+
+  42 64.4 999
+
+  42 64 hello
+
+  42 hello there
+
+  hello there
+
+Type the answer to this question into the file called q4.txt and submit it using the command:
+
+submit q4

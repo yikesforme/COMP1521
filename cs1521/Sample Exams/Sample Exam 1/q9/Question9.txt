@@ -1,0 +1,17 @@
+Question 9 (3 marks)
+Consider a process whose address space is partitioned into 4KB pages and the pages are distributed across the memory as shown in the diagram below:
+
+
+The low byte address in the process is 0 (in Code1) and the top byte address in the process is 28671 (max address in page containing Stack2).
+
+For each of the following process addresses (in decimal notation), determine what physical address it maps to.
+
+  jal func, where the label func is at 5096
+
+  lw $s0,($sp), where $sp contains 28668
+
+  la $t0, msg where the label msg is at 10192
+
+Type the answer to this question into the file called q9.txt and submit it using the command:
+
+submit q9

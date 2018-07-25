@@ -1,0 +1,7 @@
+Your Output                        Expected Output                    
+
+s1 = No More UPPER Case		   Loaded: /home/class/lib/exceptions
+s1 = No More UPPER Case		   s1 = No More UPPER Case
+s2 = no more upper case		   s1 = No More UPPER Case
+n = 8				   s2 = no more upper case
+				   n = 8

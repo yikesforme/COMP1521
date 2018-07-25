@@ -1,0 +1,13 @@
+Question 10 (6 marks)
+Under what circumstances might a call to fork() fail?
+
+Under what circumstances does execve() return a value?
+
+What should the calling program do if execve() does return?
+
+Type the answer to this question into the file called q10.txt and submit it using the command:
+
+submit q10
+Type the answer to this question into the file called q10.txt and submit it using the command:
+
+submit q10
